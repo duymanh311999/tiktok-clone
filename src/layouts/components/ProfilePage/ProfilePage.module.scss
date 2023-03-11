@@ -1,0 +1,132 @@
+.wrapper {
+    padding: 32px 28px;
+}
+
+.name-avatar {
+    display: flex;
+}
+
+.avatar {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nickname-btn {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nickname {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(22, 24, 35);
+}
+
+.check {
+    font-size: 1.8rem;
+    margin-left: 6px;
+    color: rgb(32, 213, 236);
+}
+
+.fullname {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(22, 24, 35);
+}
+.btn {
+    width: 200px;
+    height: 36px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 44, 85);
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    &:hover {
+        background-color: rgb(202, 32, 40);
+    }
+}
+
+.follow {
+    display: flex;
+    margin-top: 22px;
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-right: 20px;
+        color: #555;
+        span {
+            font-weight: 700;
+            color: rgb(22, 24, 35);
+        }
+    }
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+.content {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(22, 24, 35);
+}
+
+.link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(22, 24, 35);
+    margin-top: 10px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.icon {
+    padding-right: 2px;
+}
+
+.video-list {
+    display: flex;
+    margin-top: 20px;
+}
+.video {
+    width: 200px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(22, 24, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e4;
+    cursor: pointer;
+    &:hover {
+        border-bottom: 2px solid #333;
+    }
+}
+
+.liked {
+    width: 200px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(22, 24, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e4;
+    cursor: pointer;
+    &:hover {
+        border-bottom: 2px solid #333;
+    }
+    .icon {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        margin-bottom: 1px;
+    }
+}
