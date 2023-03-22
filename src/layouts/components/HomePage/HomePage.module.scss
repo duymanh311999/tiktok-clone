@@ -1,5 +1,6 @@
 .wrapper {
     display: block;
+    margin-left: 315px;
 }
 
 .item {
@@ -94,7 +95,10 @@
 .item-video {
     margin-top: 20px;
     margin-left: 65px;
-    border-radius: 20px;
+    video {
+        width: 350px;
+        border-radius: 10px;
+    }
 }
 
 .btn {
@@ -110,6 +114,34 @@
     border-radius: 4px;
     cursor: pointer;
     &:hover {
-        background-color: rgba(254, 44, 85, 0.06);
+        background-color: rgba(167, 167, 167, 0.185);
+    }
+}
+
+.botton-item {
+    display: flex;
+}
+
+.item-icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    .icon-text {
+        margin: 10px 0 0 20px;
+        text-align: center;
+        .icon {
+            background-color: rgba(22, 24, 35, 0.06);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            padding: 15px;
+        }
+        .text {
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(22, 24, 35, 0.75);
+        }
     }
 }

@@ -1,5 +1,7 @@
+import FollowingPage from '../../layouts/components/Following';
+
 function Live() {
-    return <h1>Live Page</h1>;
+    return <FollowingPage />;
 }
 
 export default Live;

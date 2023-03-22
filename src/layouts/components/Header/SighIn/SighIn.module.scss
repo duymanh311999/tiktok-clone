@@ -1,0 +1,101 @@
+.sighin-form {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 300%;
+    left: 40%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 20px rgba(56, 56, 56, 0.89);
+    text-align: center;
+}
+
+.sighin-form-header {
+    color: rgb(22, 24, 35);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.name-sighin-form {
+    padding-top: 20px;
+    label {
+        color: #555;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -230px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        outline: none;
+        border: 1px solid rgba(22, 24, 35, 0.12);
+        padding: 5px;
+    }
+}
+
+.email-sighin-form {
+    padding: 20px;
+    label {
+        color: #555;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -260px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        outline: none;
+        border: 1px solid rgba(22, 24, 35, 0.12);
+        padding: 5px;
+    }
+}
+
+.password-sighin-form {
+    padding-bottom: 20px;
+    label {
+        color: #555;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -234px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        outline: none;
+        border: 1px solid rgba(22, 24, 35, 0.12);
+        padding: 5px;
+    }
+}
+
+.button-sighin-form {
+    width: 300px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.button-sighin-form:hover {
+    background-color: rgb(223, 42, 42);
+}
+
+.sighin-btn {
+    background-color: transparent;
+    margin-top: 20px;
+}

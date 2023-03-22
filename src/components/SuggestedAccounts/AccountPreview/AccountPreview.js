@@ -26,7 +26,7 @@ function AccountPreview({ data }) {
                 <p className={cx('analytics')}>
                     <strong className={cx('value')}>{data.followers_count} </strong>
                     <span className={cx('label')}>Followers</span>
-                    <strong className={cx('value')}>{data.likes_count}</strong>
+                    <strong className={cx('value')}>{data.likes_count} </strong>
                     <span className={cx('label')}>Likes</span>
                 </p>
             </div>

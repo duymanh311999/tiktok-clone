@@ -76,3 +76,109 @@
     margin-left: 14px;
     cursor: pointer;
 }
+
+.login-btn {
+    position: relative;
+}
+
+.login-form {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 300%;
+    left: 40%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 20px rgba(56, 56, 56, 0.89);
+    text-align: center;
+    padding: 30px;
+}
+
+.quit-btn {
+    margin-left: 260px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-form-header {
+    color: rgb(22, 24, 35);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.email-login-form {
+    padding: 20px;
+    label {
+        color: #555;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -260px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        outline: none;
+        border: 1px solid rgba(22, 24, 35, 0.12);
+        padding: 5px;
+    }
+}
+
+.password-login-form {
+    padding-bottom: 20px;
+    label {
+        color: #555;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: -234px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(22, 24, 35);
+        outline: none;
+        border: 1px solid rgba(22, 24, 35, 0.12);
+        padding: 5px;
+    }
+}
+
+.button-login-form {
+    width: 300px;
+    height: 40px;
+    background-color: var(--primary);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.button-login-form:hover {
+    background-color: rgb(223, 42, 42);
+}
+
+.sigh-btn {
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.sighin-quit-btn {
+    position: absolute;
+    margin-top: 190px;
+    background-color: transparent;
+    left: 41%;
+    z-index: 1;
+}
+
+.alert-login-form {
+    padding-top: 20px;
+    color: rgb(223, 42, 42);
+}

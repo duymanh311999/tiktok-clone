@@ -6,6 +6,14 @@ import { faCheckCircle, faLink, faLock } from '@fortawesome/free-solid-svg-icons
 const cx = classNames.bind(styles);
 
 function ProfilePage() {
+    function FollowingButton() {
+        const following = document.getElementById('following').value;
+        if (following === 'Follow') {
+            document.getElementById('following').value = 'Unfollow';
+        } else {
+            document.getElementById('following').value = 'Follow';
+        }
+    }
     return (
         <div className={cx('wrapper')}>
             <div className={cx('name-avatar')}>
@@ -20,7 +28,13 @@ function ProfilePage() {
                         <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />
                     </div>
                     <div className={cx('fullname')}>Đào Lê Phương Hoa</div>
-                    <button className={cx('btn')}>Follow</button>
+                    <input
+                        className={cx('btn')}
+                        type="button"
+                        value="Follow"
+                        id="following"
+                        onClick={FollowingButton}
+                    />
                 </div>
             </div>
 
